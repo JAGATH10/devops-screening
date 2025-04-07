@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/JAGATH10/devops-screening.git'
+                git branch: 'master', url: 'https://github.com/JAGATH10/devops-screening.git'
             }
         }
 
